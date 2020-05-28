@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/namaInventory"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="nama"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity :"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@id/qtyInventory"/>
+
+        <TextView
+            android:id="@+id/qtyInventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:gravity="right"
+            android:text="8"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descInventory"
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:maxLines="1"
+        android:text="text"
+        android:layout_below="@id/namaInventory"/>
+</RelativeLayout>
